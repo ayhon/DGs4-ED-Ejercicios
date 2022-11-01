@@ -1,0 +1,91 @@
+.
+├── Indice.txt
+├── Tema 1 - TADs
+│   ├── 01Motivacion.pdf
+│   ├── 02TADs.pdf
+│   ├── 03EncapsulacionTAD.pdf
+│   └── 04Conceptos.pdf
+├── Tema 2 - Tipos de datos lineales
+│   ├── 01Listas.pdf
+│   ├── 02ListArray.pdf
+│   ├── 03ModificacionListas.pdf
+│   ├── 04ListasEnlazadas.pdf
+│   ├── 05ConstructorCopia.pdf
+│   ├── 06NodoFantasma.pdf
+│   ├── 07ListasEnlazadasDobles1.pdf
+│   ├── 08ListasEnlazadasDobles2.pdf
+│   ├── 09ListasCirculares.pdf
+│   ├── 10OperadoresListas.pdf
+│   ├── 11Pilas.pdf
+│   ├── 12ImplementacionPilas.pdf
+│   ├── 13AplicacionesPilas.pdf
+│   ├── 14Colas.pdf
+│   ├── 15ImplementacionColas.pdf
+│   ├── 16DoblesColas.pdf
+│   ├── 17Iteradores.pdf
+│   ├── 18ImplementacionIteradores.pdf
+│   ├── 19InsercionBorrado.pdf
+│   ├── 20IteradoresConstantes.pdf
+│   ├── 21AdaptandoSintaxis.pdf
+│   └── 22IteradoresVectores.pdf
+├── Tema 3 - Tipos de datos arborescentes
+│   ├── 01Arboles.pdf
+│   ├── 02TADBinarios.pdf
+│   ├── 03ImplBinarios.pdf
+│   ├── 04MemoriaArbBinarios.pdf
+│   ├── 05FuncionesArbolesBinarios.pdf
+│   ├── 06Recorridos.pdf
+│   ├── 07ImplementacionDFS.pdf
+│   ├── 08ImplementacionBFS.pdf
+│   ├── 09ParametrizandoRecorridos.pdf
+│   ├── 10TADConjunto.pdf
+│   ├── 11ConjuntosListas.pdf
+│   ├── 12ArbolesBusqueda.pdf
+│   ├── 13InsercionABB.pdf
+│   ├── 14BorradoABB.pdf
+│   ├── 15ConjuntosABBs.pdf
+│   ├── 16InordenIterativo.pdf
+│   ├── 17InorderIterativo2.pdf
+│   └── 18IteradoresEnArboles.pdf
+├── Tema 4 - Diccionarios
+│   ├── 01TADDiccionario.pdf
+│   ├── 02DiccionariosArboles.pdf
+│   ├── 03MenorQue.pdf
+│   ├── 04TablasHash.pdf
+│   ├── 05HashAbiertas.pdf
+│   ├── 06HashCerradas.pdf
+│   ├── 07CosteHash.pdf
+│   └── 08TablasDinamicas.pdf
+├── Tema 5 - Aplicaciones de tipos abstractos de datos
+│   ├── 01Academia.pdf
+│   ├── 02Academia2.pdf
+│   ├── 03Academia3.pdf
+│   └── 04Metro.pdf
+├── Notas C++
+│   ├── 01AtributosMetodos.pdf
+│   ├── 02Constructores.pdf
+│   ├── 03MetodosConstantes.pdf
+│   ├── 04ObjetosHeap.pdf
+│   ├── 05Destructores.pdf
+│   ├── 06ConstructorCopia.pdf
+│   ├── 07SobrecargaOperadores.pdf
+│   ├── 08OperadorAsignacion.pdf
+│   ├── 09PlantillasFunciones.pdf
+│   ├── 10PlantillasClases.pdf
+│   ├── 11STLLineales.pdf
+│   ├── 12STLIteradores.pdf
+│   ├── 13STLAlgoritmos.pdf
+│   ├── 14PunterosInteligentes.pdf
+│   ├── 15OrdenSuperior.pdf
+│   ├── 15PairTuple.pdf
+│   ├── 16ObjetosFuncion.pdf
+│   ├── 17ExpresionesLambda.pdf
+│   ├── 19STLAlgoritmos2-1.pdf
+│   ├── 19STLAlgoritmos2.pdf
+│   ├── 20Excepciones.pdf
+│   └── 21Herencia.pdf
+└── Notas Java
+    ├── 01ContenedoresLineales.pdf
+    └── 02ContenedoresAsociativos.pdf
+
+7 directories, 81 files

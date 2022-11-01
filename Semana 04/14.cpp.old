@@ -1,0 +1,59 @@
+//Author: Ayhon
+#include <bits/stdc++.h>
+using namespace std;
+
+bool noPremio(vector<int> const& h, int i, int j, int k){
+	return (h[j] >= h[k] && h[k] >= h[i]);
+}
+
+bool resolver(vector<int> alturas){
+	if(alturas.size() <= 2) // No debería pasar nunca, min es 3
+		return true;
+
+	int i = 0, j = 1;
+	bool rv = true;
+	for(int k = 2; k < (int)alturas.size() && rv; k++){
+		rv = rv && !noPremio(alturas,i,j,k);
+		if(alturas[j] < alturas[k]){
+			if(alturas[i] > alturas[j]) i = j; // Así i puede ser 1
+			j = k; // j tiene que ser el mayor de todos los de [i,n]
+		}
+		
+		if(alturas[i] > alturas[k])  // Comprobamos que i < [0,k]
+			i = k; // i tiene que ser el menor de [0,n]
+	}
+	return rv;
+}
+/*
+// Esto no funciona la posicion 1 no se considera para i,
+// ya que se presupone que el antiguo valor de j no
+// puede valer para i,
+int i = 0, j = 1;
+bool rv = true;
+for(int k = 2; k < (int)alturas.size() && rv; k++){
+	rv = rv && !noPremio(alturas,i,j,k);
+	if(alturas[j] < alturas[k]) j = k; // j tiene que ser el mayor
+	if(alturas[i] > alturas[k]) i = k; // i tiene que ser el menor
+}
+return rv;
+*/
+
+bool resuelveCaso() {
+	int n; cin >> n;
+	if(!cin) return false;
+
+	vector<int> alturas(n); // Hasta 1e9, cabe en entero
+	for(auto & e : alturas) cin >> e;
+
+	bool sol = resolver(alturas);
+
+	cout << (sol? "SIEMPRE PREMIO" : "ELEGIR OTRA") << '\n';
+
+	return true;
+}
+
+int main() {
+	while(resuelveCaso());
+	return 0;
+}
+
